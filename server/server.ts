@@ -5,7 +5,7 @@ var os = require('os');
 const app: express.Application = express();
 
 app.get('/' , function (req, res) {
-  res.send('Hello World! I am "' + os.hostname() + '".');
+  res.send('Hoooray! I am "' + os.hostname() + '".');
 });
 
 app.listen(3000, function () {
