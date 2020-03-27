@@ -1,0 +1,19 @@
+{
+  "name": "ts-hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Error: no test specified'",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.3",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
